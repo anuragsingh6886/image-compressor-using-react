@@ -1,1 +1,0 @@
-# image-compressor-using-react
