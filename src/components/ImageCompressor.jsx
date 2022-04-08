@@ -60,7 +60,7 @@ class imageCompressor extends React.Component {
 
   render() {
     return (
-      <div className="m-6">
+      <div className="m-4">
         <div className="text-light text-center">
           <h1>Image Compressor</h1>
         </div>
