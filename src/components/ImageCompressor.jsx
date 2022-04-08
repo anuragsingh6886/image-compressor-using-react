@@ -7,7 +7,7 @@ class imageCompressor extends React.Component {
     super();
     this.state = {
       compressedLink:
-        "./compressor.png",
+        "compressor.png",
       originalImage: "",
       originalLink: "",
       clicked: false,
