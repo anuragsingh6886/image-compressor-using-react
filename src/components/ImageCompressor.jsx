@@ -60,9 +60,9 @@ class imageCompressor extends React.Component {
 
   render() {
     return (
-      <div className="m-5">
+      <div className="m-6">
         <div className="text-light text-center">
-          <h1>Image Compressor Using React</h1>
+          <h1>Image Compressor</h1>
         </div>
 
         <div className="row mt-5">
