@@ -84,8 +84,11 @@ class imageCompressor extends React.Component {
               <input
                 type="file"
                 accept="image/*"
-                className="mt-2 btn btn-dark w-75"
+                className="mt-2 btn btn-primary w-75"
                 onChange={e => this.handle(e)}
+                data-toggle="button" 
+                aria-pressed="false" 
+                autocomplete="off"
               />
             </div>
           </div>
@@ -94,7 +97,7 @@ class imageCompressor extends React.Component {
             {this.state.outputFileName ? (
               <button
                 type="button"
-                className=" btn btn-dark"
+                className=" btn btn-primary"
                 onClick={e => this.click(e)}
               >
                 Compress File
