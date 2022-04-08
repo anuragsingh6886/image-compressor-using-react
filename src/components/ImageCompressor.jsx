@@ -1,7 +1,5 @@
 import React from "react";
-
 import imageCompression from "browser-image-compression";
-
 import Card from "react-bootstrap/Card";
 
 class imageCompressor extends React.Component {
@@ -9,7 +7,7 @@ class imageCompressor extends React.Component {
     super();
     this.state = {
       compressedLink:
-        "https://testersdock.com/wp-content/uploads/2017/09/file-upload-1280x640.png",
+        "./compressor.png",
       originalImage: "",
       originalLink: "",
       clicked: false,
@@ -17,6 +15,7 @@ class imageCompressor extends React.Component {
     };
   }
 
+  
   handle = e => {
     const imageFile = e.target.files[0];
     this.setState({
