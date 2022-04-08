@@ -77,7 +77,7 @@ class imageCompressor extends React.Component {
               <Card.Img
                 className="ht"
                 variant="top"
-                src="https://testersdock.com/wp-content/uploads/2017/09/file-upload-1280x640.png"
+                src="compressor.png"
               ></Card.Img>
             )}
             <div className="d-flex justify-content-center">
